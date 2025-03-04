@@ -1,18 +1,21 @@
-# <INSERT PRODUCT NAME> Hardware Design
+# Voltage & current sensor INA219 breakout Hardware Design
 
 ## About the Product
 
-| ![<INSERT PRODUCT NAME> Image](https://solde.red/<INSERT SKU>/image) |
+| ![Voltage & current sensor INA219 breakout Image](https://solde.red/333066/image) |
 | :----------------------------------------------------------: |
-| [Buy <INSERT PRODUCT NAME>](https://www.solde.red/<INSERT SKU>) |
+| [Buy Voltage & current sensor INA219 breakout](https://www.solde.red/333066) |
 
-<INSERT PRODUCT DESCRIPTION>
+The INA219 is a digital device that allows the measurement of current, voltage, and therefore power. Simply, connect wire serial through this device and it will give all the information provided via I2C communication. It is very simple and reliable to use. It has a jumper for making changes to the I2C address so you can connect more than one INA219 to single microcontroller.
+
+The maximum current of the measurement is determined by the shunt resistor found on the plate which is 0.1ohm (± 3.2A). Yes, it can measure the power in both directions! If you want to measure other currents or smaller currents more precisely, check out the datasheet to change that resistor. The maximum voltage that can be measured is 26V.
+
 
 ---
 
 ## Repository Contents
 
-This repository contains all design files for <INSERT PRODUCT NAME>, organized as follows:
+This repository contains all design files for Voltage & current sensor INA219 breakout, organized as follows:
 
 - **`CAD` folder**: Contains KiCAD design files, including:
   - Schematics
